@@ -87,8 +87,14 @@ subplot(3,2,5);
 
 plot(fw2);
 
+
+
 __OUTPUT:__
+
+
 <img width="764" height="630" alt="image" src="https://github.com/user-attachments/assets/871e1f51-ed28-4a60-9a38-736c54fb8153" />
 
 __RESULT:__
+
+
 For a sinusoidal input signal (x(t)=sin(2πt)x(t)=sin(2πt)), the Power Spectral Density (PSD) obtained from both the Fourier Transform of the autocorrelation function and the direct FFT of the signal are the same. This confirms the Wiener-Khinchin relation for the given signal: the PSD computed via FFT of the autocorrelation and direct FFT of the signal are nearly identical.​
